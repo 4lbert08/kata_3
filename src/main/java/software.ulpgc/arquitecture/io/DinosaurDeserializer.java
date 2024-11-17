@@ -1,4 +1,6 @@
-package software.ulpgc.arquitecture.model;
+package software.ulpgc.arquitecture.io;
+
+import software.ulpgc.arquitecture.model.Dinosaur;
 
 public interface DinosaurDeserializer {
     Dinosaur deserialize(String line);

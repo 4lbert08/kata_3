@@ -2,8 +2,8 @@ package software.ulpgc.app.windows;
 
 import software.ulpgc.arquitecture.control.SelectStatisticCommand;
 import software.ulpgc.arquitecture.io.FileDinosaurLoader;
-import software.ulpgc.arquitecture.io.StatsBarchartLoader;
-import software.ulpgc.arquitecture.model.CsvDinosaurDeserializer;
+import software.ulpgc.arquitecture.io.CsvDinosaurDeserializer;
+import software.ulpgc.arquitecture.io.StatisticBarchartLoader;
 import software.ulpgc.arquitecture.model.Dinosaur;
 
 import java.io.File;
@@ -24,9 +24,9 @@ public class Main {
             periodscount.put(dinosaur.getPeriod(), periodscount.getOrDefault(dinosaur.getPeriod(), 0)+1);
         }
         MainFrame mainFrame = new MainFrame();
-        StatsBarchartLoader loader = new StatsBarchartLoader(dietscount,periodscount);
-        mainFrame.put("select", new SelectStatisticCommand(mainFrame.selectStatisticDialog(), loader, mainFrame.barchartDisplay()));
-        mainFrame.barchartDisplay().show(loader.load(0));
+        StatisticBarchartLoader loader = new StatisticBarchartLoader(dietscount, periodscount);
+        mainFrame.put("select", new SelectStatisticCommand(mainFrame.getSelectBarchartDialog(), loader, mainFrame.getBarchartDisplay()));
+        mainFrame.getBarchartDisplay().show(loader.load(0));
         mainFrame.setVisible(true);
     }
 }
