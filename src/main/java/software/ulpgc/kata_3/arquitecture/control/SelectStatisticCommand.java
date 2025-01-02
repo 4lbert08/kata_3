@@ -1,8 +1,8 @@
-package software.ulpgc.arquitecture.control;
+package software.ulpgc.kata_3.arquitecture.control;
 
-import software.ulpgc.arquitecture.io.BarchartLoader;
-import software.ulpgc.arquitecture.view.BarchartDisplay;
-import software.ulpgc.arquitecture.view.SelectBarchartDialog;
+import software.ulpgc.kata_3.arquitecture.io.BarchartLoader;
+import software.ulpgc.kata_3.arquitecture.view.BarchartDisplay;
+import software.ulpgc.kata_3.arquitecture.view.SelectBarchartDialog;
 
 public class SelectStatisticCommand implements Command{
     private final SelectBarchartDialog dialog;

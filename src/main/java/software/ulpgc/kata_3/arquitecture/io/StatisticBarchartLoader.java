@@ -1,6 +1,6 @@
-package software.ulpgc.arquitecture.io;
+package software.ulpgc.kata_3.arquitecture.io;
 
-import software.ulpgc.arquitecture.model.Barchart;
+import software.ulpgc.kata_3.arquitecture.model.Barchart;
 
 import java.util.Map;
 

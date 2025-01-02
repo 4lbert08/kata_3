@@ -1,10 +1,10 @@
-package software.ulpgc.app.windows;
+package software.ulpgc.kata_3.app.windows;
 
-import software.ulpgc.arquitecture.control.SelectStatisticCommand;
-import software.ulpgc.arquitecture.io.FileDinosaurLoader;
-import software.ulpgc.arquitecture.io.CsvDinosaurDeserializer;
-import software.ulpgc.arquitecture.io.StatisticBarchartLoader;
-import software.ulpgc.arquitecture.model.Dinosaur;
+import software.ulpgc.kata_3.arquitecture.control.SelectStatisticCommand;
+import software.ulpgc.kata_3.arquitecture.io.FileDinosaurLoader;
+import software.ulpgc.kata_3.arquitecture.io.CsvDinosaurDeserializer;
+import software.ulpgc.kata_3.arquitecture.io.StatisticBarchartLoader;
+import software.ulpgc.kata_3.arquitecture.model.Dinosaur;
 
 import java.io.File;
 import java.io.IOException;

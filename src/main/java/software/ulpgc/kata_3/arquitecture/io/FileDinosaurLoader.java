@@ -1,6 +1,6 @@
-package software.ulpgc.arquitecture.io;
+package software.ulpgc.kata_3.arquitecture.io;
 
-import software.ulpgc.arquitecture.model.Dinosaur;
+import software.ulpgc.kata_3.arquitecture.model.Dinosaur;
 
 import java.io.BufferedReader;
 import java.io.File;

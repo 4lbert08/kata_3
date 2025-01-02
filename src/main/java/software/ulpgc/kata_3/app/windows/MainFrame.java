@@ -1,7 +1,7 @@
-package software.ulpgc.app.windows;
+package software.ulpgc.kata_3.app.windows;
 
-import software.ulpgc.arquitecture.control.Command;
-import software.ulpgc.arquitecture.view.SelectBarchartDialog;
+import software.ulpgc.kata_3.arquitecture.control.Command;
+import software.ulpgc.kata_3.arquitecture.view.SelectBarchartDialog;
 
 import javax.swing.*;
 import java.awt.*;

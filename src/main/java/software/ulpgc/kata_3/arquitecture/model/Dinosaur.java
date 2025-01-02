@@ -1,4 +1,4 @@
-package software.ulpgc.arquitecture.model;
+package software.ulpgc.kata_3.arquitecture.model;
 
 public class Dinosaur {
     private final String name;

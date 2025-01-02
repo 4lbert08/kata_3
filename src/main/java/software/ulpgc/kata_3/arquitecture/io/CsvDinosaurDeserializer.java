@@ -1,6 +1,6 @@
-package software.ulpgc.arquitecture.io;
+package software.ulpgc.kata_3.arquitecture.io;
 
-import software.ulpgc.arquitecture.model.Dinosaur;
+import software.ulpgc.kata_3.arquitecture.model.Dinosaur;
 
 public class CsvDinosaurDeserializer implements DinosaurDeserializer {
     @Override
